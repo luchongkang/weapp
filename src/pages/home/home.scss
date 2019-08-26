@@ -1,0 +1,45 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+
+.dtext {
+	overflow: auto;
+}
+.bg {
+	position: absolute;
+}
+.nav {
+	text-align: center;
+}
+.btn {
+	background-color: #78a4f4;
+	margin:10rpx  10rpx;
+	height: 90rpx;
+	padding-top: 30rpx;
+	color: #df8276;
+    font-size: 30rpx;
+    background: url('https://i.loli.net/2019/08/01/5d4281609d41b99293.png');
+    background-size:100% 100%;
+}
+
+.desc {
+	display: flex;
+	margin: 10rpx 40rpx;
+	padding: 30rpx;
+	height: 460rpx;
+	background: url('https://i.loli.net/2019/08/01/5d428185c29c085143.png');
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+@media only screen and (max-width: 375px) {
+  .desc  {
+    height: 400rpx;
+  }
+}
+
+.img {
+	width: 100%;
+}
+.image {
+	margin: 0 40rpx;
+	text-align: center;
+	height: 440rpx;
+}
