@@ -7,15 +7,22 @@ Taro 项目基于 node，请确保已具备较新的 node 环境（>=8.0.0），
 
 
 
+```bash
+
 # 安装依赖
 npm install
 
 # 建议不要直接使用 cnpm 安装以来，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
 npm install --registry=https://registry.npm.taobao.org
 
+# 启动服务
+npm run 
+
+```
 
 [框架源码](https://github.com/NervJS/taro)
 [框架稳定教程](https://taro-docs.jd.com/taro/docs/GETTING-STARTED.html)
+[框架官网](https://taro.aotu.io/)
 
 # 使用 npm 安装 CLI
 $ npm install -g @tarojs/cli
